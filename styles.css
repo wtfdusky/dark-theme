@@ -1,0 +1,19 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image-container {
+  
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+.image-container:hover {
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
+}
+img {
+  width: 320px;
+  border-radius: 10px;
+}
